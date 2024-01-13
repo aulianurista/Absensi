@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <LinearGradient colors={['#4c669f', '#3b5998', '#fff']} style={styles.linearGradient}>
         
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text style={styles.andes}>Open up App.js to start working on your app!</Text>
         <Text style={styles.text}>
           Attendance Management System
         </Text>
@@ -26,6 +26,9 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  andes: {
+    fontFamily: 'Good'
+  },
   bottom: {
     position: 'absolute',
     left: 0,
